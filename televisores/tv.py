@@ -69,11 +69,11 @@ class TV:
             self._volumen -= 1
     
     @classmethod
-    def getNumTv(cls):
+    def getNumTV(cls):
         return cls._numTv
     
     @classmethod
-    def setNumTv(cls,num):
+    def setNumTV(cls,num):
         cls._numTv = num
     
     
