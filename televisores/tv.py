@@ -7,7 +7,7 @@ class TV:
         self._precio = 500
         self._marca = marca
         self._estado = estado
-        self._numTv += 1
+        TV._numTv += 1
     
     #Metodos get y set para los atributos marca,canal,volumen,precio y control
     def getMarca(self):
